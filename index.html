@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/stylesheet/main.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <section class="card">
+        <h1 class="cardheading">
+          Get<span class="headingaccent"> insights</span> that help your
+          business grow.
+        </h1>
+        <p class="cardtext">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <p><span class="statsnumbers">10k+ </span><br />companies</p>
+          <p><span class="statsnumbers">314 </span><br />templates</p>
+          <p><span class="statsnumbers">12m+ </span><br />queries</p>
+        </div>
+      </section>
+      <section class="imgoverlay">
+        <img
+          class="imgcard"
+          srcset="
+            images/image-header-desktop.jpg 500w,
+            images/image-header-mobile.jpg  600w
+          "
+          sizes="(max-width: 480px) 600px,500px"
+          src="images/image-header-desktop.jpg"
+          alt="Meeting discussion"
+        />
+      </section>
+    </div>
+  </body>
+</html>
