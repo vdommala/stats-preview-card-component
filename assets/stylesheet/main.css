@@ -249,6 +249,8 @@ p {
 
 .card {
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: min(50vh, 100vw);
   background-color: var(--primary-bg-dark);
   flex-direction: column;
@@ -269,6 +271,8 @@ p {
 
 .imgoverlay {
   display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
   flex-basis: min(50vh, 100vw);
   width: 100%;
   height: 100%;
@@ -317,33 +321,7 @@ p {
   letter-spacing: 0rem;
 }
 
-/*.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-areas: "info photo";
-  padding: 4rem;
+.footer {
+  text-align: center;
+  font-size: xx-small;
 }
-.card {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--primary-bg-dark);
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  grid-area: info;
-}
-
-.imgcard {
-  background: url("./images/image-header-desktop.jpg"),
-    linear-gradient(
-      to right,
-      var(--primary-bg-accent),
-      var(--primary-bg-accent)
-    );
-  background-blend-mode: multiply, soft-light;
-  background-color: var(--primary-bg-accent);
-  background-size: cover;
-  grid-area: photo;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}*/
